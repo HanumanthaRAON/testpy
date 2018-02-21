@@ -1,0 +1,14 @@
+Instance:
+    Type:
+        t2.micro
+    Os:
+        centos:
+            AMI-ID: ami-e60e5a89
+        #ubuntu:
+        #    AMI-ID: ami-84e3b2eb
+        #redhat:
+        #    AMI-ID: ami-e60e5a89
+        #amazon:
+        #    AMI-ID: ami-531a4c3c
+    Count:
+        1
