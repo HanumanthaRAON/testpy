@@ -10,8 +10,8 @@ Instance:
         #     Count: 2
         #redhat:
         #    AMI-ID: ami-e60e5a89
-        #    Count: 3
+           Count: 3
         #amazon:
         #    AMI-ID: ami-531a4c3c
-        #     Count: 4
+             Count: 4
     
