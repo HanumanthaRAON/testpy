@@ -13,5 +13,5 @@ Instance:
         #   Count: 3
         #amazon:
         #    AMI-ID: ami-531a4c3c
-         #    Count: 4
+        #    Count: 4
         
