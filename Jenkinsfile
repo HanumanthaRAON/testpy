@@ -1,12 +1,8 @@
 pipeline{
-	
-    agent{ Dockerfile true }
-	stages{
-		stage{
-		  steps{
-			sh 'rpm -qa|grep httpd'
-				
-			}
-		}
+   agent{ dockerfile true }
+   stages{
+      stage('checkout'){
+	    checkout scm
+	  }
 	}
 }
