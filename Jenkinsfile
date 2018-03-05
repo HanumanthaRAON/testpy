@@ -1,6 +1,6 @@
 pipeline{
     agent{ dockerfile true }
-	stage{
+	stages('Git Checkout'){
 	  checkout scm
 	}
 
